@@ -26,7 +26,7 @@
     height: 40px;
     font-weight: 700;
     margin-top: 16px;
-    background-color: #00acdc;
+    background-color: $blue;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -36,8 +36,8 @@
 
   &__button:hover {
     background-color: #f3f3f3;
-    color: #00acdc;
-    border: 1px solid #00acdc;
+    color: $blue;
+    border: 1px solid $blue;
   }
 
   &:hover {
@@ -49,7 +49,7 @@
 
     & .card__button {
       background-color: #fff;
-      color: #00acdc;
+      color: $blue;
     }
   }
 
